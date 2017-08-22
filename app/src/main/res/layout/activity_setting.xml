@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"
+        android:text="飛行速率："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="58dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="245dp"
+        android:text="公里/時"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="60dp"
+        android:text="最低飛行高度："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/textView1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="113dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="276dp"
+        android:text="公尺"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="60dp"
+        android:text="返航高度："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/textView1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="168dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="245dp"
+        android:text="公尺"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="60dp"
+        android:text="Pitch："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/textView1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="223dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="215dp"
+        android:text="(80% - 120%)"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="60dp"
+        android:text="Roll："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/textView1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="278dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="204dp"
+        android:text="(80% - 120%)"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="60dp"
+        android:text="Yaw："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/textView1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="333dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="204dp"
+        android:text="(80% - 120%)"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="60dp"
+        android:text="Vertical："
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/textView1"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="388dp"
+        android:ems="5"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="230dp"
+        android:text="(80% - 120%)"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/editText1"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button28"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/round_btn_disable"
+        android:text="確認"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button29"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="205dp"
+        android:background="@drawable/round_btn_disable"
+        android:text="重設"
+        android:textSize="16sp" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/background_blue"
+        android:fitsSystemWindows="false"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:weightSum="1"
+        app:expanded="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/button17"
+                android:layout_alignBottom="@+id/button17"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:text="保全"
+                android:textSize="24sp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/AlertDialog.AppCompat"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="20dp"
+                android:text="登出" />
+
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

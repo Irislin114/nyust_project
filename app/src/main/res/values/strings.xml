@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">監控巡邏系統</string>
+    <string name="title_activity_manager">manager</string>
+    <string name="sdk_version">Version: 2.0</string>
+    <string name="title_activity_login1">login1</string>
+    <string name="title_activity_login">login</string>
+
+    <string name="view_virtual_stick">VirtualStickView</string>
+    <string name="sdk_registration_message">SDK Registration Failed. Please check the bundle ID and your network connectivity</string>
+    <string name="success">Success</string>
+</resources>

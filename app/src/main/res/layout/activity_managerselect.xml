@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yun.anew.managerselect">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/background_blue"
+        android:fitsSystemWindows="false"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:weightSum="1"
+        app:expanded="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03">
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/AlertDialog.AppCompat"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="20dp"
+                android:text="登出" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/button17"
+                android:layout_alignBottom="@+id/button17"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:text="管理者"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="557dp">
+
+        <Button
+            android:id="@+id/button23"
+            style="@style/Widget.AppCompat.ButtonBar"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/round_btn_disable"
+            android:text="禁飛區設定"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button24"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/button23"
+            android:layout_below="@+id/button23"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn_disable"
+            android:text="新增/刪除路徑"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button25"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/button24"
+            android:layout_below="@+id/button24"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn_disable"
+            android:text="飛行紀錄"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button26"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/button25"
+            android:layout_below="@+id/button25"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn_disable"
+            android:text="飛行參數設定"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/button26"
+            android:layout_below="@+id/button26"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn_disable"
+            android:text="權限設定"
+            android:textSize="14sp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
